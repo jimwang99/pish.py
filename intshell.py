@@ -36,6 +36,16 @@ class IntShell():
     [INIT] --start()-> [BUSY] --CMD_END-> [IDLE] --EOF-> [EXIT]
                           |
                           +--(_cntr_idle > timeout_cycle)-> [TIMEOUT]
+
+    # usage
+    1. ish = IntShell('name', 'tclsh')
+    2. (optional if is_auto_start=False) ish.start()
+    3. ish.update()
+    4. analyze ish.ls_stdout and ish.ls_stderr, and response with ish.send_cmd(cmd) or ish.send_exit()
+        - after send_cmd/send_exit, the actual command is buffered, waiting for next update() to send it to shell while IDLE/TIMEOUT
+        - every update() only send 1 command
+    5. repeat step 3 and 4 every 100ms
+        - waiting for status changing to EXIT
     """
 
     class PipeMonitor():
@@ -60,9 +70,6 @@ class IntShell():
             self.thread = threading.Thread(target=_monitor_pipe, args=(pipe, self.q))
             self.thread.daemon = True
             self.thread.start()
-
-    class StateMachineWarning(DeprecationWarning):
-        pass
 
     def __init__(self, name: str, start_cmd: str, log_fpath: str = '', is_verbose_log: bool = False, timeout_cycle: int = 6000, is_auto_start: bool = True):
 
@@ -239,7 +246,7 @@ class IntShell():
         if (self.status in ['IDLE', 'TIMEOUT']):
             if (self.status == 'TIMEOUT'):
                 self._log('Warning: send stdin while status is TIMEOUT')
-            while (len(self.ls_stdin) > 0):
+            if (len(self.ls_stdin) > 0):
                 line = self.ls_stdin.pop(0)
                 self.sp.stdin.write(bytes(line, "ascii"))
                 self.sp.stdin.flush()
