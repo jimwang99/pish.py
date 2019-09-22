@@ -44,6 +44,7 @@ class IntShell():
     4. analyze ish.ls_stdout and ish.ls_stderr, and response with ish.send_cmd(cmd) or ish.send_exit()
         - after send_cmd/send_exit, the actual command is buffered, waiting for next update() to send it to shell while IDLE/TIMEOUT
         - every update() only send 1 command
+        - every update() will automatically clear ls_stdout and ls_stderr (can be changed by setting is_auto_clear_output_buffer to False)
     5. repeat step 3 and 4 every 100ms
         - waiting for status changing to EXIT
     """
@@ -71,7 +72,7 @@ class IntShell():
             self.thread.daemon = True
             self.thread.start()
 
-    def __init__(self, name: str, start_cmd: str, log_fpath: str = '', is_verbose_log: bool = False, timeout_cycle: int = 6000, is_auto_start: bool = True):
+    def __init__(self, name: str, start_cmd: str, log_fpath: str = '', is_verbose_log: bool = False, timeout_cycle: int = 6000, is_auto_start: bool = True, is_auto_clear_output_buffer: bool = True):
 
         self.name = name
         self.start_cmd = start_cmd
@@ -90,13 +91,13 @@ class IntShell():
         self.ls_stdout = list()
         self.ls_stderr = list()
         self.ls_stdin  = list()
+        self.is_auto_clear_output_buffer = is_auto_clear_output_buffer
 
         self._cntr_idle_stdout = 0
         self._cntr_idle_stderr = 0
         self._cntr_idle = 0
 
         self._cntr_eof = 0
-        self.is_eof = False
 
         if (is_auto_start):
             self.start()
@@ -131,12 +132,13 @@ class IntShell():
         """
         self._log('update')
 
-        self.ls_stderr += self._copy_from_monitor(self._stderr_monitor)
-        self.ls_stdout += self._copy_from_monitor(self._stdout_monitor)
+        if (self.is_auto_clear_output_buffer):
+            self.clear_output_buffer()
 
-        self._proc_info_line()
+        self.ls_stderr += self._update_from_monitor(self._stderr_monitor)
+        self.ls_stdout += self._update_from_monitor(self._stdout_monitor)
+
         self._proc_timeout()
-        self._proc_eof()
 
         self._send_stdin()
 
@@ -152,11 +154,15 @@ class IntShell():
     def kill(self):
         self.sp.kill()
 
+    def clear_output_buffer(self):
+        self.ls_stdout.clear()
+        self.ls_stderr.clear()
+
     #===========================================================
     # private methods
     #===========================================================
 
-    def _copy_from_monitor(self, monitor: PipeMonitor) -> List[str]:
+    def _update_from_monitor(self, monitor: PipeMonitor) -> List[str]:
         """
         Copy message lines from monitor's queue to list
         :param monitor: pipe monitor instance
@@ -171,12 +177,18 @@ class IntShell():
                     # EOF
                     self._cntr_eof += 1
                     if (self._cntr_eof == 2):
-                        self.is_eof = True
+                        self._proc_eof()
                     self._log('[' + monitor.name + '] EOF')
                 else:
                     line = line.decode('ascii')
                     line = line.splitlines()[0]
-                    ls.append(line)
+
+                    # process info line
+                    info = self._get_info(line)
+                    if (info is not None):
+                        self._proc_info(info)
+                    else:
+                        ls.append(line)
                     self._log('[' + monitor.name + '] ' + line)
             except queue.Empty:
                 break
@@ -191,33 +203,23 @@ class IntShell():
         else:
             return None
 
-    def _proc_info_line(self) -> None:
-        ls = list()
-        for line in self.ls_stdout:
-            info = self._get_info(line)
-            if (info is None):
-                # not info line
-                ls.append(line)
-                continue
+    def _proc_info(self, info) -> None:
+        is_unexpected = False
+        if (self.status == 'BUSY'):
+            if (info == 'CMD_END'):
+                self.status = 'IDLE'
+                self._log('  status BUSY --CMD_END-> IDLE')
+            else:
+                is_unexpected = True
+        elif (self.status == 'IDLE'):
+            if (info == 'CMD_START'):
+                self.status = 'BUSY'
+                self._log('  status IDLE --CMD_START-> BUSY')
+            else:
+                is_unexpected = True
 
-            is_unexpected = False
-            if (self.status == 'BUSY'):
-                if (info == 'CMD_END'):
-                    self.status = 'IDLE'
-                    self._log('  status BUSY --CMD_END-> IDLE')
-                else:
-                    is_unexpected = True
-            elif (self.status == 'IDLE'):
-                if (info == 'CMD_START'):
-                    self.status = 'BUSY'
-                    self._log('  status IDLE --CMD_START-> BUSY')
-                else:
-                    is_unexpected = True
-
-            if (is_unexpected):
-                self._log('Warning: info = %s while status = %s' % (self.status, info))
-
-        self.ls_stdout = ls
+        if (is_unexpected):
+            self._log('Warning: info = %s while status = %s' % (self.status, info))
 
     def _proc_timeout(self) -> None:
         if (self.status == 'BUSY'):
@@ -236,11 +238,10 @@ class IntShell():
             self._cntr_idle = 0
 
     def _proc_eof(self) -> None:
-        if (self.is_eof):
-            if (self.status != 'IDLE'):
-                self._log('Warning: EOF while status is %s not IDLE' % (self.status))
-            self._log('  status %s --EOF-> EXIT' % self.status)
-            self.status = 'EXIT'
+        if (self.status != 'IDLE'):
+            self._log('Warning: EOF while status is %s not IDLE' % (self.status))
+        self._log('  status %s --EOF-> EXIT' % self.status)
+        self.status = 'EXIT'
 
     def _send_stdin(self) -> None:
         if (self.status in ['IDLE', 'TIMEOUT']):

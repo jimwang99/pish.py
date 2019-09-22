@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a26d9b11-8038-4d70-98f9-200488e90819" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gui.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intshell.py" afterPath="$PROJECT_DIR$/intshell.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="gui.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="85" column="29" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+              <folding>
+                <element signature="e#44#67#0" expanded="true" />
+                <element signature="e#256#920#0" expanded="true" />
+                <element signature="e#957#1109#0" expanded="true" />
+                <element signature="e#1163#1322#0" expanded="true" />
+                <element signature="e#1377#1813#0" expanded="true" />
+                <element signature="e#1885#2424#0" expanded="true" />
+                <element signature="e#2462#2508#0" expanded="true" />
+                <element signature="e#2875#2973#0" expanded="true" />
+                <element signature="e#3030#3181#0" expanded="true" />
+                <element signature="e#3359#3428#0" expanded="true" />
+                <element signature="e#3487#3581#0" expanded="true" />
+                <element signature="e#3694#3698#0" expanded="true" />
+                <element signature="e#3736#3740#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="intshell.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intshell.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1482">
+              <caret line="170" column="31" lean-forward="false" selection-start-line="170" selection-start-column="31" selection-end-line="170" selection-end-column="31" />
+              <folding>
+                <element signature="e#43#52#0" expanded="true" />
+                <element signature="e#1733#2446#0" expanded="false" />
+                <element signature="e#1849#2446#0" expanded="true" />
+                <element signature="e#1997#2259#0" expanded="true" />
+                <element signature="e#2656#3370#0" expanded="true" />
+                <element signature="e#3403#3482#0" expanded="true" />
+                <element signature="e#3608#4109#0" expanded="true" />
+                <element signature="e#4149#4521#0" expanded="true" />
+                <element signature="e#4573#4754#0" expanded="true" />
+                <element signature="e#4797#4827#0" expanded="true" />
+                <element signature="e#4857#4871#0" expanded="true" />
+                <element signature="e#4916#4969#0" expanded="true" />
+                <element signature="e#6340#6526#0" expanded="true" />
+                <element signature="e#7875#8073#0" expanded="true" />
+                <element signature="e#8118#8501#0" expanded="true" />
+                <element signature="e#8655#8685#0" expanded="true" />
+                <element signature="e#8733#9040#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pish.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pish.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding>
+                <element signature="e#43#66#0" expanded="true" />
+                <element signature="e#223#272#0" expanded="true" />
+                <element signature="e#414#509#0" expanded="true" />
+                <element signature="e#541#921#0" expanded="true" />
+                <element signature="e#951#997#0" expanded="true" />
+                <element signature="e#1069#1120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/init.tcl" />
+        <option value="$PROJECT_DIR$/test/shell.tcl.py" />
+        <option value="$PROJECT_DIR$/ttk_notebook.py" />
+        <option value="$PROJECT_DIR$/gui_subprocess.py" />
+        <option value="$PROJECT_DIR$/trial.py" />
+        <option value="$PROJECT_DIR$/test/test.tcl" />
+        <option value="$PROJECT_DIR$/test_intshell.py" />
+        <option value="$PROJECT_DIR$/gui.py" />
+        <option value="$PROJECT_DIR$/intshell.py" />
+        <option value="$PROJECT_DIR$/pish.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pish.py" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pish.py" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pish.py" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pish.py" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="C:/python/envs/py27/python.exe" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings sdk-home="C:\Anaconda3\python.exe" is-module-sdk="true">
+        <option name="mySdkHome" value="C:\Anaconda3\python.exe" />
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.pish">
+    <configuration default="false" name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pish.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in TestIntShell and test_start" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pish.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/test_intshell.py" />
+      <option name="keywords" value="TestIntShell and test_start" />
+      <option name="params" value="-s" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in TestIntShell and test_send_cmd" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pish.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/test_intshell.py" />
+      <option name="keywords" value="TestIntShell and test_send_cmd" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in TestIntShell" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pish.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/test_intshell.py" />
+      <option name="keywords" value="TestIntShell" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="pish" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pish.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pish.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pish.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pish.py" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pish.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pish.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pish.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pish.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pish.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.gui" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in TestIntShell and test_start" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in TestIntShell and test_send_cmd" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in TestIntShell" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pish" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.pish" />
+        <item index="1" class="java.lang.String" itemvalue="Python.gui" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in TestIntShell" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in TestIntShell and test_send_cmd" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in TestIntShell and test_start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a26d9b11-8038-4d70-98f9-200488e90819" name="Default" comment="" />
+      <created>1491027173152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1491027173152</updated>
+    </task>
+    <task id="LOCAL-00001" summary="working intshell.py">
+      <created>1493084218854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1493084218854</updated>
+    </task>
+    <task id="LOCAL-00002" summary="working intshell.py">
+      <created>1493084644205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1493084644205</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_in_TestIntShell - 2017.04.25 at 17h 38m 23s.xml">
+      <configuration name="py.test in TestIntShell" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestIntShell_and_test_send_cmd - 2017.04.24 at 18h 06m 37s.xml">
+      <configuration name="py.test in TestIntShell and test_send_cmd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestIntShell_and_test_start - 2017.04.24 at 16h 56m 13s.xml">
+      <configuration name="py.test in TestIntShell and test_start" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestIntShell_and_test_start - 2017.04.24 at 16h 56m 52s.xml">
+      <configuration name="py.test in TestIntShell and test_start" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestIntShell_and_test_start - 2017.04.24 at 16h 57m 22s.xml">
+      <configuration name="py.test in TestIntShell and test_start" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestIntShell_and_test_start - 2017.04.24 at 16h 58m 26s.xml">
+      <configuration name="py.test in TestIntShell and test_start" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestIntShell_and_test_start - 2017.04.24 at 17h 00m 31s.xml">
+      <configuration name="py.test in TestIntShell and test_start" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestIntShell_and_test_start - 2017.04.24 at 17h 00m 48s.xml">
+      <configuration name="py.test in TestIntShell and test_start" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestIntShell_and_test_start - 2017.04.24 at 17h 06m 23s.xml">
+      <configuration name="py.test in TestIntShell and test_start" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestIntShell_and_test_start - 2017.04.24 at 17h 18m 38s.xml">
+      <configuration name="py.test in TestIntShell and test_start" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2804642" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39941972" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working intshell.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="working intshell.py" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trial.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="85" column="29" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <element signature="e#44#67#0" expanded="true" />
+            <element signature="e#256#920#0" expanded="true" />
+            <element signature="e#957#1109#0" expanded="true" />
+            <element signature="e#1163#1322#0" expanded="true" />
+            <element signature="e#1377#1813#0" expanded="true" />
+            <element signature="e#1885#2424#0" expanded="true" />
+            <element signature="e#2462#2508#0" expanded="true" />
+            <element signature="e#2875#2973#0" expanded="true" />
+            <element signature="e#3030#3181#0" expanded="true" />
+            <element signature="e#3359#3428#0" expanded="true" />
+            <element signature="e#3487#3581#0" expanded="true" />
+            <element signature="e#3694#3698#0" expanded="true" />
+            <element signature="e#3736#3740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="170" column="31" lean-forward="false" selection-start-line="170" selection-start-column="31" selection-end-line="170" selection-end-column="31" />
+          <folding>
+            <element signature="e#43#52#0" expanded="true" />
+            <element signature="e#1733#2446#0" expanded="false" />
+            <element signature="e#1849#2446#0" expanded="true" />
+            <element signature="e#1997#2259#0" expanded="true" />
+            <element signature="e#2656#3370#0" expanded="true" />
+            <element signature="e#3403#3482#0" expanded="true" />
+            <element signature="e#3608#4109#0" expanded="true" />
+            <element signature="e#4149#4521#0" expanded="true" />
+            <element signature="e#4573#4754#0" expanded="true" />
+            <element signature="e#4797#4827#0" expanded="true" />
+            <element signature="e#4857#4871#0" expanded="true" />
+            <element signature="e#4916#4969#0" expanded="true" />
+            <element signature="e#6340#6526#0" expanded="true" />
+            <element signature="e#7875#8073#0" expanded="true" />
+            <element signature="e#8118#8501#0" expanded="true" />
+            <element signature="e#8655#8685#0" expanded="true" />
+            <element signature="e#8733#9040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#43#66#0" expanded="true" />
+            <element signature="e#223#272#0" expanded="true" />
+            <element signature="e#414#509#0" expanded="true" />
+            <element signature="e#541#921#0" expanded="true" />
+            <element signature="e#951#997#0" expanded="true" />
+            <element signature="e#1069#1120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="85" column="29" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <element signature="e#44#67#0" expanded="true" />
+            <element signature="e#256#920#0" expanded="true" />
+            <element signature="e#957#1109#0" expanded="true" />
+            <element signature="e#1163#1322#0" expanded="true" />
+            <element signature="e#1377#1813#0" expanded="true" />
+            <element signature="e#1885#2424#0" expanded="true" />
+            <element signature="e#2462#2508#0" expanded="true" />
+            <element signature="e#2875#2973#0" expanded="true" />
+            <element signature="e#3030#3181#0" expanded="true" />
+            <element signature="e#3359#3428#0" expanded="true" />
+            <element signature="e#3487#3581#0" expanded="true" />
+            <element signature="e#3694#3698#0" expanded="true" />
+            <element signature="e#3736#3740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="170" column="31" lean-forward="false" selection-start-line="170" selection-start-column="31" selection-end-line="170" selection-end-column="31" />
+          <folding>
+            <element signature="e#43#52#0" expanded="true" />
+            <element signature="e#1733#2446#0" expanded="false" />
+            <element signature="e#1849#2446#0" expanded="true" />
+            <element signature="e#1997#2259#0" expanded="true" />
+            <element signature="e#2656#3370#0" expanded="true" />
+            <element signature="e#3403#3482#0" expanded="true" />
+            <element signature="e#3608#4109#0" expanded="true" />
+            <element signature="e#4149#4521#0" expanded="true" />
+            <element signature="e#4573#4754#0" expanded="true" />
+            <element signature="e#4797#4827#0" expanded="true" />
+            <element signature="e#4857#4871#0" expanded="true" />
+            <element signature="e#4916#4969#0" expanded="true" />
+            <element signature="e#6340#6526#0" expanded="true" />
+            <element signature="e#7875#8073#0" expanded="true" />
+            <element signature="e#8118#8501#0" expanded="true" />
+            <element signature="e#8655#8685#0" expanded="true" />
+            <element signature="e#8733#9040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#66#0" expanded="true" />
+            <element signature="e#223#272#0" expanded="true" />
+            <element signature="e#414#509#0" expanded="true" />
+            <element signature="e#541#921#0" expanded="true" />
+            <element signature="e#951#997#0" expanded="true" />
+            <element signature="e#1069#1120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="85" column="29" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <element signature="e#44#67#0" expanded="true" />
+            <element signature="e#256#920#0" expanded="true" />
+            <element signature="e#957#1109#0" expanded="true" />
+            <element signature="e#1163#1322#0" expanded="true" />
+            <element signature="e#1377#1813#0" expanded="true" />
+            <element signature="e#1885#2424#0" expanded="true" />
+            <element signature="e#2462#2508#0" expanded="true" />
+            <element signature="e#2875#2973#0" expanded="true" />
+            <element signature="e#3030#3181#0" expanded="true" />
+            <element signature="e#3359#3428#0" expanded="true" />
+            <element signature="e#3487#3581#0" expanded="true" />
+            <element signature="e#3694#3698#0" expanded="true" />
+            <element signature="e#3736#3740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="170" column="31" lean-forward="true" selection-start-line="170" selection-start-column="31" selection-end-line="170" selection-end-column="31" />
+          <folding>
+            <element signature="e#43#52#0" expanded="true" />
+            <element signature="e#1733#2446#0" expanded="false" />
+            <element signature="e#1849#2446#0" expanded="true" />
+            <element signature="e#1997#2259#0" expanded="true" />
+            <element signature="e#2656#3370#0" expanded="true" />
+            <element signature="e#3403#3482#0" expanded="true" />
+            <element signature="e#3608#4109#0" expanded="true" />
+            <element signature="e#4149#4521#0" expanded="true" />
+            <element signature="e#4573#4754#0" expanded="true" />
+            <element signature="e#4797#4827#0" expanded="true" />
+            <element signature="e#4857#4871#0" expanded="true" />
+            <element signature="e#4916#4969#0" expanded="true" />
+            <element signature="e#6340#6526#0" expanded="true" />
+            <element signature="e#7875#8073#0" expanded="true" />
+            <element signature="e#8118#8501#0" expanded="true" />
+            <element signature="e#8655#8685#0" expanded="true" />
+            <element signature="e#8733#9040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#66#0" expanded="true" />
+            <element signature="e#223#272#0" expanded="true" />
+            <element signature="e#414#509#0" expanded="true" />
+            <element signature="e#541#921#0" expanded="true" />
+            <element signature="e#951#997#0" expanded="true" />
+            <element signature="e#1069#1120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#67#0" expanded="true" />
+            <element signature="e#256#920#0" expanded="true" />
+            <element signature="e#957#1109#0" expanded="true" />
+            <element signature="e#1163#1322#0" expanded="true" />
+            <element signature="e#1377#1813#0" expanded="true" />
+            <element signature="e#1885#2424#0" expanded="true" />
+            <element signature="e#2462#2508#0" expanded="true" />
+            <element signature="e#2875#2973#0" expanded="true" />
+            <element signature="e#3030#3181#0" expanded="true" />
+            <element signature="e#3359#3428#0" expanded="true" />
+            <element signature="e#3487#3581#0" expanded="true" />
+            <element signature="e#3694#3698#0" expanded="true" />
+            <element signature="e#3736#3740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#66#0" expanded="true" />
+            <element signature="e#223#272#0" expanded="true" />
+            <element signature="e#414#509#0" expanded="true" />
+            <element signature="e#541#921#0" expanded="true" />
+            <element signature="e#951#997#0" expanded="true" />
+            <element signature="e#1069#1120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_intshell.tcl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#52#0" expanded="true" />
+            <element signature="e#1733#2446#0" expanded="false" />
+            <element signature="e#1849#2446#0" expanded="true" />
+            <element signature="e#1997#2259#0" expanded="true" />
+            <element signature="e#2656#3370#0" expanded="true" />
+            <element signature="e#3403#3482#0" expanded="true" />
+            <element signature="e#3608#4109#0" expanded="true" />
+            <element signature="e#4149#4521#0" expanded="true" />
+            <element signature="e#4573#4754#0" expanded="true" />
+            <element signature="e#4797#4827#0" expanded="true" />
+            <element signature="e#4857#4871#0" expanded="true" />
+            <element signature="e#4916#4969#0" expanded="true" />
+            <element signature="e#6340#6526#0" expanded="true" />
+            <element signature="e#7875#8073#0" expanded="true" />
+            <element signature="e#8118#8501#0" expanded="true" />
+            <element signature="e#8655#8685#0" expanded="true" />
+            <element signature="e#8733#9040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#52#0" expanded="true" />
+            <element signature="e#1733#2446#0" expanded="false" />
+            <element signature="e#1849#2446#0" expanded="true" />
+            <element signature="e#1997#2259#0" expanded="true" />
+            <element signature="e#2656#3370#0" expanded="true" />
+            <element signature="e#3403#3482#0" expanded="true" />
+            <element signature="e#3608#4109#0" expanded="true" />
+            <element signature="e#4149#4521#0" expanded="true" />
+            <element signature="e#4573#4754#0" expanded="true" />
+            <element signature="e#4797#4827#0" expanded="true" />
+            <element signature="e#4857#4871#0" expanded="true" />
+            <element signature="e#4916#4969#0" expanded="true" />
+            <element signature="e#6340#6526#0" expanded="true" />
+            <element signature="e#7875#8073#0" expanded="true" />
+            <element signature="e#8118#8501#0" expanded="true" />
+            <element signature="e#8655#8685#0" expanded="true" />
+            <element signature="e#8733#9040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.tcl" />
+    <entry file="file://$PROJECT_DIR$/trial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2356">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding>
+            <element signature="e#2014#2051#0" expanded="false" />
+            <element signature="e#2239#2997#0" expanded="false" />
+            <element signature="e#2457#2800#0" expanded="false" />
+            <element signature="e#3047#3207#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_intshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui_subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/init.tcl" />
+    <entry file="file://$PROJECT_DIR$/test/shell.py" />
+    <entry file="file://$PROJECT_DIR$/ttk_notebook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.tcl" />
+    <entry file="file://C:/python/envs/py36/Lib/enum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <element signature="e#2014#2051#0" expanded="false" />
+            <element signature="e#2239#2997#0" expanded="false" />
+            <element signature="e#2457#2800#0" expanded="false" />
+            <element signature="e#3047#3207#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_intshell.tcl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_intshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/envs/py36/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="2285" column="0" lean-forward="false" selection-start-line="2285" selection-start-column="0" selection-end-line="2285" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/envs/py36/Lib/tkinter/ttk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="741" column="0" lean-forward="false" selection-start-line="741" selection-start-column="0" selection-end-line="741" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui_subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="85" column="29" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <element signature="e#44#67#0" expanded="true" />
+            <element signature="e#256#920#0" expanded="true" />
+            <element signature="e#957#1109#0" expanded="true" />
+            <element signature="e#1163#1322#0" expanded="true" />
+            <element signature="e#1377#1813#0" expanded="true" />
+            <element signature="e#1885#2424#0" expanded="true" />
+            <element signature="e#2462#2508#0" expanded="true" />
+            <element signature="e#2875#2973#0" expanded="true" />
+            <element signature="e#3030#3181#0" expanded="true" />
+            <element signature="e#3359#3428#0" expanded="true" />
+            <element signature="e#3487#3581#0" expanded="true" />
+            <element signature="e#3694#3698#0" expanded="true" />
+            <element signature="e#3736#3740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="170" column="31" lean-forward="false" selection-start-line="170" selection-start-column="31" selection-end-line="170" selection-end-column="31" />
+          <folding>
+            <element signature="e#43#52#0" expanded="true" />
+            <element signature="e#1733#2446#0" expanded="false" />
+            <element signature="e#1849#2446#0" expanded="true" />
+            <element signature="e#1997#2259#0" expanded="true" />
+            <element signature="e#2656#3370#0" expanded="true" />
+            <element signature="e#3403#3482#0" expanded="true" />
+            <element signature="e#3608#4109#0" expanded="true" />
+            <element signature="e#4149#4521#0" expanded="true" />
+            <element signature="e#4573#4754#0" expanded="true" />
+            <element signature="e#4797#4827#0" expanded="true" />
+            <element signature="e#4857#4871#0" expanded="true" />
+            <element signature="e#4916#4969#0" expanded="true" />
+            <element signature="e#6340#6526#0" expanded="true" />
+            <element signature="e#7875#8073#0" expanded="true" />
+            <element signature="e#8118#8501#0" expanded="true" />
+            <element signature="e#8655#8685#0" expanded="true" />
+            <element signature="e#8733#9040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#43#66#0" expanded="true" />
+            <element signature="e#223#272#0" expanded="true" />
+            <element signature="e#414#509#0" expanded="true" />
+            <element signature="e#541#921#0" expanded="true" />
+            <element signature="e#951#997#0" expanded="true" />
+            <element signature="e#1069#1120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
